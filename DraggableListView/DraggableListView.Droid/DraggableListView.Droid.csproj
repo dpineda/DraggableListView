@@ -97,6 +97,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DDListViewRenderer.cs" />
+    <Compile Include="DraggableListAdapter.cs" />
     <Compile Include="DraggableListView.cs" />
     <Compile Include="IDraggableListAdapter.cs" />
     <Compile Include="MainActivity.cs" />
@@ -107,7 +109,6 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\Main.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

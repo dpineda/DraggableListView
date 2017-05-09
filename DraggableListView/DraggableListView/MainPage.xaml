@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:DraggableListView"
              x:Class="DraggableListView.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <local:DDListView />
 
 </ContentPage>
