@@ -96,13 +96,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DDListViewRenderer.cs" />
+    <Compile Include="Custom\ItemDragListener.cs" />
+    <Compile Include="Renderers\DDListViewRenderer.cs" />
     <Compile Include="DraggableListAdapter.cs" />
     <Compile Include="DraggableListView.cs" />
     <Compile Include="IDraggableListAdapter.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Renderers\DDViewCellRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Custom\TemporalObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
